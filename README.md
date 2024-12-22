@@ -12,4 +12,4 @@ Este é um projeto de uma página de currículo pessoal, criado com HTML e CSS. 
 1. Clone o repositório para o seu computador:
 
    ```bash
-   git clone https://github.com/usuario/nome-do-repositorio.git
+   git clone https://github.com/Rodrigo-Souza-DEV/1.-P-gina-Est-tica-de-Curr-culo
