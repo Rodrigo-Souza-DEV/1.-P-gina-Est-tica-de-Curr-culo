@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+header .name_mob {
+    display: none;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 50px;
+}
+
+h2 {
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+p, li, a {
+    font-size: 14px;
+}
+li {
+    padding-bottom: 10px;
+}
+
+ul {
+    padding-left: 16px;
+}
+ul li a {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+h3 {
+    font-size: 16px;
+}
+.contact ul {
+    padding-left: 0px;
+}
+.contact ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.contact ul li img {
+    padding-right: 10px;
+}
+main {
+    max-width: 960px;
+    background-color: white;
+    padding: 50px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    flex-direction: row-reverse;
+}
+
+header img {
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.content-container {
+    display: flex;
+}
+
+.content-container aside {
+    flex: 1;
+    border-right: 1px solid gray;
+}
+
+.content-container aside div {
+    border-bottom: 1px solid gray;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.content-container aside .languages {
+    border-bottom: none;
+}
+
+.content-container section {
+    flex: 2;
+    margin-left: 20px;
+}
+
+.content-container section div {
+    border-bottom: 1px solid gray;
+    margin-top: 20px;
+
+}
+
+.content-container section .edutacion {
+    border-bottom: none;
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        padding: 20px;
+    }
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header h2, header h1{
+        text-align: center;
+    }
+
+    header .name_des {
+        display: none;
+    }
+
+    header .name_mob {
+        display: block;
+    }
+    .content-container {
+        display: block;
+    }
+
+    .content-container aside {
+        flex: 1;
+        border-right: none;
+    }
+    .content-container aside div {
+        border-bottom: 1px solid gray !important;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .content-container section {
+        margin-left: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 250px) {
+    h1 {
+        font-size: 30px;
+    }
+    main {
+        padding: 5px;
+    }
+}
