@@ -15,3 +15,5 @@ Este é um projeto de uma página de currículo pessoal, criado com HTML e CSS. 
    git clone https://github.com/Rodrigo-Souza-DEV/1.-P-gina-Est-tica-de-Curr-culo
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 ![Descrição da Imagem](image/capt.jpeg)
+
+[Acesse Aqui: ]([https://www.exemplo.com](https://rodrigo-souza-dev.github.io/1.-P-gina-Est-tica-de-Curr-culo/))
